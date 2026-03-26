@@ -7,113 +7,159 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header>
-        <img src="./assets/flex-4.jpg" alt="photo de profile">
-    <h1>Tauvale Hakomani</h1>
-    <table>
-        <tr><th>Développeur Web et Web Mobile</th></tr>
-        <tr>
-            <td><a href="mailto:tauvalemani@gmail.com"></a>Mail</td>
-            <td><a href="https://www.google.com/maps/" target="_blank">Adresse</a></td>
-        </tr>
-        <tr>
-            <td><a href="tel:+33787878787"></a>Téléphone</td>
-            <td>Permis B</td>
-        </tr>
-    </table>
-    </header>
-    <aside>
-        <section>
-            <h2>Compétences</h2><hr>
-            <ul>
-                <li><strong>HTML</strong> ★★★★✩</li>
-                <li><strong>CSS</strong> ★★★★✩</li>
-                <li><strong>Javascript</strong> ★★✩✩✩</li>
-                <li><strong>PHP</strong> ★✩✩✩✩</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Langues</h2><hr>
-            <ul>
-                <li>Français <span>Langue maternelle</span></li>
-                <li>Anglais <span>Professionnel</span></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Qualités</h2><hr>
-            <ul>
-                <li>Esprit d'équipe</li>
-                <li>Autonomie</li>
-                <li>Organisation</li>
-                <li>Créativité</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Centres d'intérêt</h2><hr>
-            <ul>
-                <li>Rugby</li>
-                <li>Cinema</li>
-                <li>Gastronomie</li>
-                <li>Voyages</li>
-            </ul>
-        </section>
-    </aside>
-    <main>
-        <article>
-            <h2>Profil</h2><hr>
-            <p>
-                Trés motivé, rigoureux, soucieux du travail bien fait et volonté d'être <br>
-                éfficace dans mon travail. Ayant aussi soif de toujours apprendre pour <br>
-                être plus performant dans mon domaine d'activité.
-            </p>
-        </article>
-        <section>
-            <h2>Formation</h2><hr>
-                <ul>
-                    <li><strong>Titre Professionnel DWWM </strong><time datetime="2026">2026</time></li>
-                    <li><small>Centre Européen de Formation</small></li>
-                </ul>
-                <ul>
-                    <li><strong>Licence Mathemique </strong><time datetime="2003">2003</time></li>
-                    <li><small>Université de la ville</small></li>
-                </ul>
-                <ul>
-                    <li><strong>Baccalauréat </strong><time datetime="1999">1999</time></li>
-                    <li><small>Lycée de la ville</small></li>
-                </ul>
-        </section>
-        <section>
-            <h2>Stages</h2><hr>
-                <ul>
-                    <li><strong>Cariste </strong><time datetime="2018">2018</time></li>
-                    <li><small>Btp</small></li>
-                </ul>
-                <ul>
-                    <li><strong>Agent de maintenance </strong><time datetime="2003">2003</time></li>
-                    <li><small>Mairie de la ville</small></li>
-                </ul>
-        </section>
-        <section>
-            <h2>Expérience professionnelle</h2><hr>
-                <ul>
-                    <li><strong>Cariste </strong><time datetime="2018">2018</time></li>
-                    <li><small>>Smd3</small></li>
-                </ul>
-                <ul>
-                    <li><strong>Agriculteur </strong><time datetime="2010">2010</time></li>
-                    <li><small>Sarlat</small></li>
-                </ul>
-                <ul>
-                    <li><strong>Cariste </strong><time datetime="2007">2007</time></li>
-                    <li><small>Btp</small></li>
-                </ul>
-        </section>
-    </main>
-    <footer>
-        <img src="https://www.flaticon.com/fr/icon-font-gratuite/linkedin_6422202?related_id=6422202" alt="logo Linkedin">
-        <img src="https://www.flaticon.com/fr/icon-font-gratuite/github_6424084?related_id=6424084" alt="logo Github">
-        <img src="https://www.flaticon.com/fr/icon-font-gratuite/instagram_6422200?related_id=6422200" alt="logo Instagram">
-        Mise à jour le <time datetime="2026-03-25">25/03/2026</time>    
-    </footer>   
+    <div class="cv-container">
+        <header class="header">
+            <div>
+                <a class="survol2" href="./assets/flex-4.jpg" ><img class="photo" src="./assets/flex-4.jpg" alt="photo de profile"></a>
+            </div>
+            <div>
+                <h1>Tauvale Hakomani</h1>
+                <strong class="job-title">Développeur Web et Web Mobile</strong>
+                <ul class="contact-grid">
+                    <li><a href="mailto:tauvalemani@gmail.com"><img class="taille" src="./assets/e-mail.png" alt="icon mail"><small>Mail</small></a></li>
+                    <li><a href="https://www.google.com/maps/" target="_blank"><img class="taille" src="./assets/accueil.png" alt=""><small>Adresse</small></a></li>
+                    <li><a href="tel:+33787878787"><img class="taille" src="./assets/mobile.png" alt=""><small>Téléphone</small></a></li>
+                    <li><img class="taille" src="./assets/auto.png" alt=""><small>Permis B</small></li>
+                </ul>          
+            </div>
+        </header>
+        <div class="alignement">
+            <aside class="bloc1">
+                <section>
+                    <h2 class="titre">Compétences</h2>
+                    <ul>
+                        <li class="alignement-bloc1">
+                            <strong>HTML</strong><p class="blue">★★★★✩</p>
+                        </li>
+                         <li class="alignement-bloc1">
+                            <strong>CSS</strong><p class="blue">★★★★✩</p>
+                        </li>
+                         <li class="alignement-bloc1">
+                            <strong>Javascrip</strong><p class="blue">★★✩✩✩</p>
+                        </li>
+                        <li class="alignement-bloc1">
+                            <strong>PHP</strong><p class="blue">★✩✩✩✩</p>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="titre">Langues</h2>
+                    <ul>
+                        <li class="alignement-bloc1"><p>Français</p><p>Langue maternelle</p></li>
+                        <li class="alignement-bloc1"><p>Anglais</p><p>Professionnel</p></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="titre">Qualités</h2>
+                    <ul class="puce">
+                        <li><p class="noir">Esprit d'équipe</p></li>
+                        <li><p class="noir">Autonomie</p></li>
+                        <li><p class="noir">Organisation</p></li>
+                        <li><p class="noir">Créativité</p></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="titre">Centres d'intérêt</h2>
+                    <ul class="puce">
+                        <li><p class="noir">Rugby</p></li>
+                        <li><p class="noir">Cinema</p></li>
+                        <li><p class="noir">Gastronomie</p></li>
+                        <li><p class="noir">Voyages</p></li>
+                    </ul>
+                </section>
+            </aside>
+            <main class="bloc2">
+                <article>
+                    <h2 class="titre">Profil</h2>
+                    <p>
+                        Trés motivé, rigoureux, soucieux du travail bien fait et volonté d'être
+                        éfficace dans mon travail. Ayant aussi soif de toujours apprendre pour    
+                        être plus performant dans mon domaine d'activité.
+                    </p>
+                </article>
+                <section>
+                    <h2 class="titre">Formations</h2>
+                    <ul>
+                        <li class="bloc2-contenu survol1">
+                            <div>
+                                <strong>Titre Professionnel DWWM</strong><br>
+                                <small class="italic">Centre Européen de Formation</small>
+                            </div>    
+                            <time class="blue" datetime="2026">2026</time>   
+                        </li>
+                        <li class="bloc2-contenu survol1">
+                            <div>
+                                <strong>Licence Mathématique</strong><br>
+                                <small class="italic">Université de la ville</small>
+                            </div>
+                            <time class="blue" datetime="2003">2003</time>
+                        </li>
+                        <li class="bloc2-contenu survol1">
+                            <div>
+                                <strong>Baccalauréat</strong><br>
+                                <small class="italic">Lycée de la ville</small>
+                            </div>    
+                            <time class="blue" datetime="1999">1999</time>   
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="titre">Stages</h2>
+                    <ul>
+                        <li class="bloc2-contenu survol1">
+                            <div>
+                                <strong>Cariste </strong><br>
+                                <small class="italic">Btp</small>
+                            </div>    
+                            <time class="blue" datetime="2018">2018</time>   
+                        </li>
+                        <li class="bloc2-contenu survol1">
+                            <div>
+                                <strong>Agent de maintenance</strong><br>
+                                <small class="italic">Mairie de la ville</small>
+                            </div>    
+                            <time class="blue" datetime="2003">2003</time>   
+                        </li> 
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="titre">Expérience professionnelle</h2>
+                    <ul>
+                        <li class="bloc2-contenu survol1">
+                            <div>
+                                <strong>Cariste</strong><br>
+                                <small class="italic">Smd3</small>
+                            </div>    
+                            <time class="blue" datetime="2018">2018</time>   
+                        </li> 
+                        <li class="bloc2-contenu survol1">
+                            <div>
+                                <strong>Agriculteur</strong><br>
+                                <small class="italic">Sarlat</small>
+                            </div>    
+                            <time class="blue" datetime="2010">2010</time>   
+                        </li> 
+                        <li class="bloc2-contenu survol1">
+                            <div>
+                                <strong>Cariste</strong><br>
+                                <small class="italic">Btp</small>
+                            </div>    
+                            <time class="blue" datetime="2007">2007</time>   
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="icon">
+                <a class="survol3" href="https://fr.linkedin.com/"><img src="./assets/linkedin-square.png" alt=""></a>
+                <a class="survol3" href="https://github.com/SECAR7"><img src="./assets/github.png" alt=""></a>
+                <a class="survol3" href="https://www.instagram.com/"><img src="./assets/instagram.png" alt=""></a>
+            </div>
+            <div class="icon">
+                Mise à jour le <time datetime="2026-03-25">25/03/2026</time> 
+            </div>   
+        </footer>  
+    </div> 
 </body>
 </html> 
